@@ -16,8 +16,10 @@ namespace AuthService.Migrations
         protected override void Seed(AuthService.Models.AuthContext context)
         {
 			var company = AddCompany("Alien Arc Technologies, LLC");
+			var company2 = AddCompany("Stewart Knives");
 			var user1 = AddUser(context, "admin", "password", "Luke", "Skywalker", company);
 			var user2 = AddUser(context, "user1", "password", "Han", "Solo", company);
+			context.Companies.Add(company2);
 			company.Employees.Add(user1);
 			company.Employees.Add(user2);
 			context.SaveChanges();			
