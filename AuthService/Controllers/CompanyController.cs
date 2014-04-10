@@ -23,7 +23,7 @@ namespace AuthService.Controllers
 		public IHttpActionResult GetCompanies()
 		{
 			var companies = Context.Companies.ToList();
-			return Ok("Test Data");
+			return Ok("Test Data 2");
 		}
     }
 }
