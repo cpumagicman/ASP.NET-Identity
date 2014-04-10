@@ -135,6 +135,10 @@
     <Compile Include="Migrations\201404101907439_User Company added.Designer.cs">
       <DependentUpon>201404101907439_User Company added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201404102116047_Added address fields to Company Model.cs" />
+    <Compile Include="Migrations\201404102116047_Added address fields to Company Model.Designer.cs">
+      <DependentUpon>201404102116047_Added address fields to Company Model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppUser.cs" />
     <Compile Include="Models\AuthContext.cs" />
@@ -168,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201404101907439_User Company added.resx">
       <DependentUpon>201404101907439_User Company added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201404102116047_Added address fields to Company Model.resx">
+      <DependentUpon>201404102116047_Added address fields to Company Model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
