@@ -1,0 +1,4 @@
+/AuthService/bin/*
+/AuthService/obj/*
+/AuthService/obj/Debug/*
+/packages
