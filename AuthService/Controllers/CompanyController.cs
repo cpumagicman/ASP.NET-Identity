@@ -22,8 +22,8 @@ namespace AuthService.Controllers
 		[Route("summary")]
 		public IHttpActionResult GetCompanies()
 		{
-			var companies = Context.Companies.ToList();
-			return Ok("Test Data 2");
+			var companies = Context.Companies.Select(c => c.Name).ToList();
+			return Ok(companies);
 		}
     }
 }
