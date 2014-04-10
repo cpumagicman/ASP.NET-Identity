@@ -9,6 +9,7 @@ namespace AuthService.Models
 	{
 		public Guid Id { get; set; }
 		public String Name { get; set; }
+		public String Phone {get; set; }
 		public virtual ICollection<AppUser> Employees { get; set; }
 
 		public Company()
